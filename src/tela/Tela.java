@@ -15,11 +15,11 @@ public class Tela extends javax.swing.JFrame {
     
     public Tela() {
         lampada = new Lampada();
-        lbranca = new ImageIcon("C:\\Users\\Thiago\\Desktop\\lampadas\\l1.png");
-        lverde = new ImageIcon("C:\\Users\\Thiago\\Desktop\\lampadas\\l4.png");
-        lvermelha = new ImageIcon("C:\\Users\\Thiago\\Desktop\\lampadas\\l5.png");
-        lazul = new ImageIcon("C:\\Users\\Thiago\\Desktop\\lampadas\\l3.png");
-        lamarela = new ImageIcon("C:\\Users\\Thiago\\Desktop\\lampadas\\l2.png");
+        lbranca = new ImageIcon("lampadas\\l1.png");
+        lverde = new ImageIcon("lampadas\\l4.png");
+        lvermelha = new ImageIcon("lampadas\\l5.png");
+        lazul = new ImageIcon("lampadas\\l3.png");
+        lamarela = new ImageIcon("lampadas\\l2.png");
         initComponents();
     }
 
@@ -96,7 +96,7 @@ public class Tela extends javax.swing.JFrame {
 
         imagem1.setBackground(new java.awt.Color(255, 255, 255));
         imagem1.setForeground(new java.awt.Color(255, 255, 255));
-        imagem1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Thiago\\Desktop\\lampadas\\l1.png")); // NOI18N
+        imagem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tela/lampadas/l1.png"))); // NOI18N
         imagem1.setBorderPainted(false);
 
         campoLigada.setBackground(new java.awt.Color(204, 0, 0));
