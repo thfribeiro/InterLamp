@@ -35,7 +35,7 @@ public class Lampada {
         return aceso;
     }
     
-    public String isCor(){
+    public String getCor(){
         return cor;
     }
     
